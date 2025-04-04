@@ -1,7 +1,7 @@
 Hi ! My name is Abigail
 ================================================================================================================================
 
-Web development experience 🤏
+Experiences I've had 🤏
 
 - Frontend Development: HTML, CSS , Bootstrap, JavaScript 
 - Frameworks: Joomla 4, Node.js
