@@ -2,9 +2,8 @@
 <h3 align="center">I'm a Software Engineer Intern at Amazon Web Services (AWS)</h3>
 ================================================================================================================================
 
-- 👨‍💻 Finishing my Master Degree in Software Engineering at Polytechnic of Turin
-- 🧑🏻‍🎓 Bachelor degree in Computer Engineering at University of Pisa <br>
-- Check out my portfolio [here](https://mlampis.dev)!
+- 🧑🏻‍🎓 Rajamangala University of Technology Suvarnabhumi <br>
+- Check out my portfolio [here](https://energysolutions.egat.co.th/)!
 
 Actually working on:
 - Materiale per Ingegneria Informatica, italian Repo for Computer Engineering at UNIPI
@@ -23,10 +22,6 @@ Experiences I've had 🤏
 - API
 
 -----------------
-
-- 👨‍💻 Finishing my Master Degree in Software Engineering at Polytechnic of Turin
-- 🧑🏻‍🎓 Bachelor degree in Computer Engineering at University of Pisa <br>
-- Check out my portfolio [here](https://mlampis.dev)!
 
 Actually working on:
 - Materiale per Ingegneria Informatica, italian Repo for Computer Engineering at UNIPI
