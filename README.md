@@ -12,7 +12,7 @@ Actually working on:
 
  -----------------
  
-Experiences I've had 🤏
+Experiences I've had 💼
 
 - Frontend Development: HTML, CSS , Bootstrap, JavaScript 
 - Frameworks: Joomla 4, Node.js
