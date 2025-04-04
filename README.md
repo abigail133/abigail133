@@ -1,7 +1,16 @@
 Hi ! My name is Abigail
 ================================================================================================================================
 
-Just a somtime 🤏
+Web development experience 🤏
+
+- Frontend Development: HTML, CSS , Bootstrap, JavaScript 
+- Frameworks: Joomla 4, Node.js
+- Programming Languages: Java, Python , PHP
+- Databases: SQL 
+- Tools: Power BI, Software Tester
+- Analytics
+- API
+
 -----------------
 
 * 🌍  I'm based in ThaiLand
