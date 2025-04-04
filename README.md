@@ -1,6 +1,17 @@
-Hi ! My name is Abigail
+<h1 align="center">Hi There👋, I'm Abigail </h1>
+<h3 align="center">I'm a Software Engineer Intern at Amazon Web Services (AWS)</h3>
 ================================================================================================================================
 
+- 👨‍💻 Finishing my Master Degree in Software Engineering at Polytechnic of Turin
+- 🧑🏻‍🎓 Bachelor degree in Computer Engineering at University of Pisa <br>
+- Check out my portfolio [here](https://mlampis.dev)!
+
+Actually working on:
+- Materiale per Ingegneria Informatica, italian Repo for Computer Engineering at UNIPI
+- destreamer-unipi, porting of Destreamer for UNIPI (Download videos from Microsoft Stream)
+
+ -----------------
+ 
 Experiences I've had 🤏
 
 - Frontend Development: HTML, CSS , Bootstrap, JavaScript 
@@ -13,6 +24,13 @@ Experiences I've had 🤏
 
 -----------------
 
+- 👨‍💻 Finishing my Master Degree in Software Engineering at Polytechnic of Turin
+- 🧑🏻‍🎓 Bachelor degree in Computer Engineering at University of Pisa <br>
+- Check out my portfolio [here](https://mlampis.dev)!
+
+Actually working on:
+- Materiale per Ingegneria Informatica, italian Repo for Computer Engineering at UNIPI
+- destreamer-unipi, porting of Destreamer for UNIPI (Download videos from Microsoft Stream)
 
 ### Skills
 
