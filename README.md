@@ -1,4 +1,4 @@
-<h1 align="center">Hi There👋, I'm Abigail </h1>
+<h1 align="center">Hi👋, I'm Abigail </h1>
  
 - Check out my portfolio. I have experience in website management and web development. [here](https://energysolutions.egat.co.th/)!
 
