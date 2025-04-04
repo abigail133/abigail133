@@ -2,7 +2,7 @@
  
 - Check out my portfolio. I have experience in website management and web development. [here](https://energysolutions.egat.co.th/)!
 
-<h1 align="center">Actually working on:
+Actually working on:
  
 - In the past, on the job learning May not be in the line of work that I want
 - so I can learn that The working system of each line of work may not be the same
